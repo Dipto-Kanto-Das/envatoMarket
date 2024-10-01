@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.das{
+    margin: 0px;
+    background-color:rgb(0, 13, 16);
+    display: flex;
+    justify-content: space-between;
+    }
+    .das li{
+        padding: 0px;
+    }
+    .das li a{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .koli{
+        margin-right: 25px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+  
+    .first a h6{
+        padding: 2px;
+        margin: 2px;
+        color: rgb(211, 221, 230);
+        margin-bottom:2px ;
+    }
+    .first{
+        margin-right: 20px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+        background-color: rgb(84, 144, 82);
+        border: none;
+        border-radius:3px;
+        box-shadow: #000;
+    }
+  .das h3{
+       color: #f9f1f1;
+       border: #e80808 solid 2px;
+    }
+.header{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    margin: 20px;
+}
+.button{
+    border: #000 solid 1px;
+    font-weight: 900;
+    border-radius: 5px;
+    box-sizing: 20px;
+}
+.header li a{
+    text-decoration: none;
+    color: #000;
+}
+.dearch{
+    display: flex;
+}
+.head{
+    display: flex;
+}
+li{
+    list-style-type: none; 
+    padding:8px;
+}
+.nav{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:20px; 
+    margin: 50px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: #000;
+}
+/* body */
+.top{
+    background-color: antiquewhite;
+}
+.carousel-inner{
+    height: 70vh;
+}
+
+.card-title{
+    text-align: center;
+}
+.tk{
+    color: #22f341;
+}
+.Popular{
+    text-align: center;
+}
+.card-footer img{
+    width: 46vh;
+}
+.card-text{
+    text-align: center;
+}
+
+.all ul li {
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #64b496; 
+}
+
+.social-media {
+    display: flex;
+    padding: 0;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+.packing{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.packing-2{
+    width: 300px;
+    height: 300px;
+
+}
+.packing-3{
+    width: 400px;
+    height: 425px;
+
+}
+
+.last-card{
+    text-align: center;
+  
+}
+
+ 
+
+/* General styles for the team section */
+.teams {
+    background-color: #f8f9fa; 
+    padding: 60px 0;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+
+.card {
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 10px; 
+    flex: 0 0 200px; 
+    transition: transform 0.3s;
+ }
+
+.card:hover {
+        transform: scale(1.05);
+     }
+
+/* Box styles within each card */
+.box {
+    text-align: center;
+    padding: 20px;
+}
+
+.box img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+    color: #333; 
+}
+
+.card p {
+    font-size: 1rem; 
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 150px; 
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 0 0 100%; 
+        margin: 10px 0;
+    }
+}
+
+
+
+.footer{
+    background-color: #e0c2c2;
+    color: #000;
+}
